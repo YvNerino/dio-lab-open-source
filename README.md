@@ -88,37 +88,7 @@ Aprender o básico sobre contribuição no GitHub.
 9. Envie as alterações para o seu repositório remoto `git push origin feat/community/SEU_USERNAME`; 
 10. Crie um **Pull Request**.
 
-### Instructions (EN/US)
-1. **Fork** this repository;
-2. Clone locally: `git clone https://github.com/YOUR_USERNAME/dio-lab-open-source.git`;
-3. Add the upstream remote to keep your local repository updated. For instance: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
-    > Use the command `git pull upstream main` to download and merge the changes in your local repository based on the `main` branch of this original repository from which you forked, or `git fetch upstream main` to download without merging. Learn more at: [Getting Started with Git and GitHub](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/git/ROADMAP_GITHUB.md).
-4. Create/Reference a new **branch** and name it `feat/community/YOUR_USERNAME`: `git checkout -b feat/community/YOUR_USERNAME`;
-    > Example: `git checkout -b feat/community/rafaeldscordeiro`
-5. Inside the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder, create a Markdown file (extension `.md`) and name it after your GitHub username;
-    > Example: `rafaeldscordeiro.md` <br>
-6. Develop your profile: For that, you can see examples in the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder and add some of the utilities available in the [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) folder;
-    > **Note:** Use the other examples as inspiration, not as a copy.
-7. Add your changes to the "staging area" with the command `git add community/YOUR_USERNAME.md`;
-8. Create a commit and add a message indicating the addition of your profile `git commit -m"feat: add YOUR_USERNAME profile"`;
-9. Push the changes to your remote repository `git push origin feat/community/YOUR_USERNAME`;
-10. Create a **Pull Request**.
-
-### Instrucciones (ES/ES)
-1. Haz un **Fork** de este repositorio;
-2. Clona localmente: `git clone https://github.com/TU_USERNAME/dio-lab-open-source.git`;
-3. Añade el remote upstream para mantener tu repositorio local actualizado. Por ejemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
-    > Usa el comando `git pull upstream main` para descargar y fusionar los cambios en tu repositorio local basado en la rama `main` de este repositorio original del cual hiciste el fork, o `git fetch upstream main` para descargar sin fusionar. Aprende más en: [Primeros Pasos con Git y GitHub](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/git/ROADMAP_GITHUB.md).
-4. Crea/Referencia una nueva **branch** y nómbrala `feat/community/TU_USERNAME`: `git checkout -b feat/community/TU_USERNAME`;
-    > Ejemplo: `git checkout -b feat/community/rafaeldscordeiro`
-5. Dentro de la carpeta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crea un archivo en Markdown (extensión `.md`) y nómbralo con el mismo nombre de tu usuario en GitHub;
-    > Ejemplo: `rafaeldscordeiro.md` <br>
-6. Desarrolla tu perfil. Para eso, puedes ver ejemplos en la carpeta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) y añadir algunas de las utilidades presentes en la carpeta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
-    > **Nota:** Usa los otros ejemplos como inspiración y no como copia.
-7. Agrega tus cambios al "área de preparación" con el comando `git add community/TU_USERNAME.md`;
-8. Crea un commit y añade un mensaje indicando la adición de tu perfil `git commit -m"feat: add TU_USERNAME profile"`;
-9. Envía los cambios a tu repositorio remoto `git push origin feat/community/TU_USERNAME`;
-10. Crea un **Pull Request**.
+---
 
 ### Utilitários
 
@@ -132,18 +102,3 @@ Aprender o básico sobre contribuição no GitHub.
 [![Star](https://img.shields.io/github/stars/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/stargazers)
 [![Forks](https://img.shields.io/github/forks/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/forks)
 [![GitHub Issues](https://img.shields.io/github/issues/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/issues/)
-
- Este é um projeto feito para a comunidade, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`utils`](https://github.com/elidianaandrade/dio-lab-open-source/tree/main/utils), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`docs`](https://github.com/elidianaandrade/dio-lab-open-source/tree/main/docs). <br>
- Além disso, você também pode contribuir:
- 
-⚠️ Resolvendo, respondendo ou indicando **issues**
-
-⭐ Adicionando aos favoritos (**star**) 
-
-### Membros da comunidade que já contribuiram:
-<a href="https://github.com/elidianaandrade/dio-lab-open-source/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elidianaandrade/dio-lab-open-source"/>
-</a>
-
-##
-<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
